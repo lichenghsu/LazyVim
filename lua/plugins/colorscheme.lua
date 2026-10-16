@@ -25,7 +25,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      -- 用 catppuccin-mocha：nvim 0.12 內建的 colors/catppuccin.vim 會蓋掉插件的 "catppuccin"
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
